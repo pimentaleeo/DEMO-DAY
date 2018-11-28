@@ -1,118 +1,81 @@
-body{
-    margin: 0;
-    font-family: 'Circular', Helvetica, Arial, sans-serif;
-    font-weight: bold,
-}
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
 
-nav>a{
-    text-decoration: none;
-    color: aliceblue;
-}
-header{
-    background-color: black;
-}
-.hamburger{
-    display:flex;
-    align-items:center;
-    width: 50px;
-    height: 50px;
-    margin-left: 2vw;
-    flex-direction: column;
-    justify-content: center;
-    z-index: 1;
-    border-radius:50%;
-}
-
-/* .traço{
-    width: 30px;
-    height: 2px;
-    background-color: white;
-    transition: 1s; */
-}
-}
-/* #hamburger:hover{
-    cursor: pointer;
-}
-
-#hamburger>div{
-    background-color: white;
-    border-radius: 22%;
-    height: 3px;
-    width: 23px; */
-/* } */
-
-header{
-    width: 50px;
-    height: 30px;
-    padding:15px ;
-    box-sizing: border-box;
-    position: fixed;
-    top:0%;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: black;
-}
-.logo{   
-    height: 26.6px;
-}
-
-.top{
-    justify-content: center;
+body {
+    color: #5a5a5a;
 }
 
 nav{
-    display: none;
-    justify-content: space-between;   
-    color: white;
-    width: 30%;
+    background-color: rgba(0, 0, 0, .85);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+nav a{
+    color: #999;
+    transition: ease-in-out color .15s;
+}
+nav a:hover{
+    color: #fff;
+    text-decoration: none;
 }
 
-.nav-items{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 0 15px;
-}
-
-.backtop{
-    width: 100%;
-    height: 60vh;
-}
-
-nav img{
-    width: 100px;
-    height: 50px;
-}
-
-#carrousel{
-    position: relative;
-    overflow: hidden;
-    
-}
-
-.wall{
-    display: none;
-    width: 100%;
-    height: 100%;
-}
-
-/* Corzinha de fundo para diferenciar */
-.wall-1{ background-color: #f00; }
-.wall-2{ background-color: #0f0; }
-.wall-3{ background-color: #00f; }
-
-.wall:target{
-    display: block;
-}
-
-
-@media screen and (min-width: 768px){
-
-    nav{
-        display: flex;
+  /* MARKETING CONTENT
+  -------------------------------------------------- */
+  
+  /* Center align the text within the three columns below the carousel */
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  
+  
+  /* Featurettes
+  ------------------------- */
+  
+  .featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+  
+  /* Thin out the marketing headings */
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+  }
+  
+  
+  /* RESPONSIVE CSS
+  -------------------------------------------------- */
+  
+  @media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
     }
-
-    #hamburger{
-        display: none;
+  
+    .featurette-heading {
+      font-size: 50px;
     }
+  }
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }
+  
+
+  .bg{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
