@@ -32,6 +32,7 @@ aside{
 aside .nav-link {
   font-weight: 500;
   color: #333;
+  padding-left: 10px;
 }
 
 .sidebar .nav-link:hover .feather,
@@ -45,8 +46,8 @@ aside .nav-link.active {
 
 span{
   display: inline-block;
-  margin-right: 4px;
   color: rgb(68, 68, 68);
+  width: 24px;
 }
 
   /* MARKETING CONTENT
@@ -104,8 +105,8 @@ span{
   }
   
 
-  .bg{
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
+.bg{
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
