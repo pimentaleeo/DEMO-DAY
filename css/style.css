@@ -19,6 +19,30 @@ nav a:hover{
     text-decoration: none;
 }
 
+aside{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100; /* Behind the navbar */
+  padding: 20px 0 0; /* Height of navbar */
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+aside .nav-link {
+  font-weight: 500;
+  color: #333;
+}
+
+.sidebar .nav-link:hover .feather,
+.sidebar .nav-link.active .feather {
+  color: inherit;
+}
+
+aside .nav-link.active {
+  color: #007bff;
+}
+
   /* MARKETING CONTENT
   -------------------------------------------------- */
   
