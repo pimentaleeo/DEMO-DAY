@@ -44,7 +44,7 @@ aside .nav-link.active {
   color: #007bff;
 }
 
-span{
+a>span{
   display: inline-block;
   color: rgb(68, 68, 68);
   width: 24px;

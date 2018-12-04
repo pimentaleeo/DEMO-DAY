@@ -84,11 +84,58 @@
             
             </aside>
 
-            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4" style="background-color:lightsteelblue; border-radius:5px">
+
+                <form method="POST">
+            
+                    <div class="form-group">
+                        <label for="nome">Nome Completo</label>
+                        <input class="form-control" type="text" name="nome" id="" value="caique alves dos santos" disabled>
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="dtNasc">Data de nascimento</label>
+                        <input class="form-control" type="date" name="dtNasc" id="">
+                    </div>
+                    
+                    <div class="form-group">
+                        <input class="" type="radio" name="sexo" value="M">Masculino
+                        <input class="" type="radio" name="sexo" value="F">Feminino
+                    <div>
+            
+                    <div class="form-group" id="">
+                        <label>Email</label>
+                        <input class="form-control" type="email" name="email">
+                    </div>
+            
+                    <div class="form-group" id="">
+                        <label>Telefone</label>
+                        <input class="form-control" type="tel" name="tel">
+                    </div>
+            
+                    <input type="submit" value="Editar">
+            
+                
+            
+                    <div class="">
+                        <label>Tipo de sangue</label>
+                        <select name="" id="">
+                            <option value="">A+</option>
+                            <option value="">A-</option>
+                            <option value="">AB+</option>
+                            <option value="">AB-</option>
+                            <option value="">B+</option>
+                            <option value="">B-</option>
+                            <option value="">O-</option>
+                            <option value="">O+</option>
+                        </select>
+                    </div>
+
+                </form>
 
             
                 <!-- FOOTER -->
-                <footer class="container" style="background-color:lightsteelblue; border-radius:5px">
+                <footer class="container" >
                     <p class="float-right"><a href="#">Voltar ao topo</a></p>
                     <p>&copy; 2018. &middot; <a href="#">Privacy</a> &middot; <a href="#">Termos</a></p>
                 </footer>
