@@ -89,10 +89,12 @@
             
             </aside>
 
-            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4 py-4" style="background-color:rgb(199, 210, 224); border-radius:5px">
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4 py-4" style="background-color:rgb(247, 247, 247); border-radius:5px">
 
                 <form method="POST">
             
+                    <h2>Prontuario</h2>
+                    <br>
                     <div class="form-row">
                         <div class="form-group col-6">
                             <label for="nome">Nome Completo</label>
@@ -107,52 +109,52 @@
                     
                     <label for="">Sexo</label>
                     <div class="form-group">
-                        <input class="" type="radio" name="sexo" value="M">Masculino
-                        <input class="" type="radio" name="sexo" value="F">Feminino
+                        <input class="" type="radio" name="sexo" value="M" disabled checked>Masculino
+                        <input class="" type="radio" name="sexo" value="F" disabled>Feminino
                     <div>
             
-                    <div class="form-group" id="">
-                        <label>Email</label>
-                        <input class="form-control" type="email" name="email">
-                    </div>
-            
-                    <div class="form-group" id="">
-                        <label>Telefone</label>
-                        <input class="form-control" type="tel" name="tel">
-                    </div>
-            
-                    <input type="submit" value="Editar">
-            
+                    <div class="form-row">
+                        <div class="form-group col" id="">
+                            <label>Email</label>
+                            <input class="form-control" type="email" name="email" value="caiquealves@gmail.com" disabled>
+                        </div>
                 
+                        <div class="form-group col" id="">
+                            <label>Telefone</label>
+                            <input class="form-control" type="tel" name="tel" value="11 2436-9332" disabled>
+                        </div>
+                    </div>
             
-                    <div class="form-group">
-                        <label>Tipo de sangue</label>
-                        <select class="form-control" name="" id="">
-                            <option value="">A+</option>
-                            <option value="">A-</option>
-                            <option value="">AB+</option>
-                            <option value="">AB-</option>
-                            <option value="">B+</option>
-                            <option value="">B-</option>
-                            <option value="">O-</option>
-                            <option value="">O+</option>
-                        </select>
-                    </div>
-
                     
+            
+                    <div class="form-row">
+            
+                        <div class="form-group col">
+                            <label for="altura">Convênio</label>
+                            <input type="text" class="form-control" value="UNIMED" disabled>
+                        </div>
 
-                    <div class="form-group">
-                        <label for="altura">altura</label>
-                        <input type="text" class="form-control">
+                        <div class="form-group col-6">
+                            <label>Tipo de sangue</label>
+                            <select class="form-control" name="" id="" disabled>
+                                <option value="">A+</option>
+                                <option value="">A-</option>
+                                <option value="">AB+</option>
+                                <option value="">AB-</option>
+                                <option value="">B+</option>
+                                <option value="">B-</option>
+                                <option value="">O-</option>
+                                <option value="">O+</option>
+                            </select>
+                        </div>
+                    
                     </div>
 
-                    <div class="form-group">
-                        <label for="altura">peso</label>
-                        <input type="text" class="form-control">
-                    </div>
 
-                    <label for=""> usa óculos</label>
-                    <input type="checkbox" class="" name="" id="">
+                    <div class="col-4">
+                        <label for=""> usa óculos</label>
+                        <input type="checkbox" class="" name="" id="">
+                    </div>
 
                     <label for="">Possui problemas cardiacos?</label>
                     <input type="text">
@@ -161,6 +163,7 @@
                     <input type="checkbox" class="" name="" id="">
 
 
+                    <input type="submit" value="Editar" class="form-control">
                 </form>
 
             

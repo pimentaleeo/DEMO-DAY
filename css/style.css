@@ -143,9 +143,9 @@ a>span{
   background-image: url('../img/bg-index.jpg');
   background-size: cover;
   border-radius: 20px;
-  margin: 68px 16px;
+  margin: 75px 25px;
 }
 
-.row{
+#row{
   margin-top:75px;
 }
