@@ -91,82 +91,38 @@
 
             <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4 py-4" style="background-color:rgb(247, 247, 247); border-radius:5px">
 
-                <form method="POST">
-            
-                    <h2>Prontuario</h2>
-                    <br>
-                    <div class="form-row">
-                        <div class="form-group col-6">
-                            <label for="nome">Nome Completo</label>
-                            <input class="form-control" type="text" name="nome" id="" value="Caique Alves dos Santos" disabled>
-                        </div>
-                    
-                        <div class="form-group col-6">
-                            <label for="dtNasc">Data de nascimento</label>
-                            <input class="form-control" value="1999-02-12" type="date" name="dtNasc" id="" disabled>
-                        </div>
-                    </div>
-                    
-                    <label for="">Sexo</label>
-                    <div class="form-group">
-                        <input class="" type="radio" name="sexo" value="M" disabled checked>Masculino
-                        <input class="" type="radio" name="sexo" value="F" disabled>Feminino
-                    <div>
-            
-                    <div class="form-row">
-                        <div class="form-group col" id="">
-                            <label>Email</label>
-                            <input class="form-control" type="email" name="email" value="caiquealves@gmail.com" disabled>
-                        </div>
-                
-                        <div class="form-group col" id="">
-                            <label>Telefone</label>
-                            <input class="form-control" type="tel" name="tel" value="11 2436-9332" disabled>
-                        </div>
-                    </div>
-            
-                    
-            
-                    <div class="form-row">
-            
-                        <div class="form-group col">
-                            <label for="altura">Convênio</label>
-                            <input type="text" class="form-control" value="UNIMED" disabled>
-                        </div>
-
-                        <div class="form-group col-6">
-                            <label>Tipo de sangue</label>
-                            <select class="form-control" name="" id="" disabled>
-                                <option value="">A+</option>
-                                <option value="">A-</option>
-                                <option value="">AB+</option>
-                                <option value="">AB-</option>
-                                <option value="">B+</option>
-                                <option value="">B-</option>
-                                <option value="">O-</option>
-                                <option value="">O+</option>
-                            </select>
-                        </div>
-                    
-                    </div>
-
-
-                    <div class="form-row">
-                        <div class="col-4">
-                            <label for=""> usa óculos</label>
-                            <input type="checkbox" class="" name="" id="">
-                        </div>
-
-                        <label for="">Possui problemas cardiacos?</label>
-                        <input type="text" class="form-control">
-                    </div>
-
-                    <label for="">Possui problemas respiratórios?</label>
-                    <input type="checkbox" class="" name="" id="">
-
-
-                    <input type="submit" value="Editar" class="form-control">
-                </form>
+                <table class="table table-hover">
+                    <thead class="thead-dark">
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Exame</th>
+                        <th scope="col">Médico</th>
+                        <th scope="col">Data</th>
+                      </tr>
+                    </thead>
+                    <tbody class="">
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Exame de vista</td>
+                        <td>Dr. Marcos</td>
+                        <td>20/08/2018</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Exame de sangue</td>
+                        <td>Dr Sergio</td>
+                        <td>21/02/2018</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  
+                  <button class="btn btn-primary">Anexar Exame</button>
 
             
                 <!-- FOOTER -->
