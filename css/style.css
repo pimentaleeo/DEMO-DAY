@@ -147,5 +147,11 @@ a>span{
 }
 
 #row{
-  margin-top:75px;
+  margin-top:65px;
+}
+
+@media (max-width:992px){
+  #row{
+    margin-top:0px;
+  }
 }
